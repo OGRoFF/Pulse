@@ -113,24 +113,20 @@
         }
     }
     .advantages{
-        &__header{
-            margin-top: 40px;
-            font-size: 24px;
+        &__wrapper{
         }
-        &__blocks{
-            margin-top: 35px;
-        }
-        &__block{
-            font-size: 14px;
-            &_descr_s{
-                font-size: 12px;
-                margin-top: 20px;
-                }
+        &__item{
+            width: 220px ;
             img{
                 width: 50px;
                 height: 50px;
                 margin-bottom: 20px;
             }
+        }
+        &__subtitle{
+            text-align: center;
+            margin-top: 15px;
+            
         }
     }
 
