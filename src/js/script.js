@@ -43,7 +43,7 @@ if (answer) {
 } else {
     console.log('go away')
 }
-
+ 
 const num = 50;
 
 if (num<49){
@@ -59,10 +59,30 @@ for(let i = 1; i<8;i++) {
 }
  */
 
-function logging (a, b) {
+/* function logging (a, b) {
     console.log (a + b)
 }
 
 logging(3, 5);
 
-logging(6, 8);
+logging(6, 8); */
+
+$(document).ready(function(){
+    $('.carousel__inner').slick({
+        speed: 1200,
+      //  adaptiveHeight: true,
+        prevArrow: '<button type="button" class="slick-prev"><img src="icons/left.svg"></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="icons/right.svg"></button>',
+        responsive: [
+            {
+              breakpoint: 992,
+              settings: {
+                dots: true,
+                arrows: false
+              }
+            },
+        ]
+
+      });
+  });
+      
