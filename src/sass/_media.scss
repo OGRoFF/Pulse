@@ -24,16 +24,23 @@
         }
     } 
 
-
-
+    .carousel {
+        &__inner {
+            width: 650px;
+            img {
+                width: 100%;
+            }
+            .slick-dots {
+                display: flex;
+                justify-content: space-evenly;
+            }
+        }
+    }
 }
-	
 	
 @media (max-width: 767px){
     .header {
         margin: 0 20px 0 20px;
-        
-       
         &__phone{
             font-size: 16px;
         }
@@ -41,7 +48,6 @@
             img{
                 width: 90%; 
             }
-                   
         }
     } 
 
@@ -73,9 +79,19 @@
         }
     }
 
-
-}	
-        
+    .carousel {
+        &__inner {
+            width: 450px;
+            img {
+                width: 100%;
+            }
+            .slick-dots {
+                display: flex;
+                justify-content: space-evenly;
+            }
+        }
+    }	
+}      
 
 @media (max-width: 575px){
     .header{
@@ -161,6 +177,17 @@
             width: 250px;
         }
     }
-
+ 
+    .carousel {
+        &__inner {
+            width: 250px;
+            img {
+                width: 100%;
+            }
+            .slick-dots {
+                display: flex;
+                justify-content: space-evenly;
+            }
+        }
+    }
 }
-	
