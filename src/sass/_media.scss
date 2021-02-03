@@ -24,7 +24,6 @@
         }
     } 
 
-<<<<<<< HEAD
     .carousel {
         &__inner {
             width: 650px;
@@ -37,12 +36,10 @@
             }
         }
     }
-=======
     .container{
         margin-left: 30px;
     }
 
->>>>>>> master
 }
 	
 @media (max-width: 767px){
@@ -85,20 +82,6 @@
     }
 
     .carousel {
-<<<<<<< HEAD
-        &__inner {
-            width: 450px;
-            img {
-                width: 100%;
-            }
-            .slick-dots {
-                display: flex;
-                justify-content: space-evenly;
-            }
-        }
-    }	
-}      
-=======
         &__inner{
             width: 500px;
             img {
@@ -108,7 +91,6 @@
     }
 }	
         
->>>>>>> master
 
 @media (max-width: 575px){
     .header{
@@ -194,26 +176,16 @@
             width: 250px;
         }
     }
-<<<<<<< HEAD
- 
-    .carousel {
-        &__inner {
-            width: 250px;
-            img {
-                width: 100%;
-            }
-            .slick-dots {
-                display: flex;
-                justify-content: space-evenly;
-            }
-=======
     .carousel {
         &__inner{
             width: 300px;
             img {
                 width: 100%;
             }
->>>>>>> master
+        }
+        .slick-dots {
+            display: flex;
+            justify-content: space-evenly;
         }
     }
 }
